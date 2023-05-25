@@ -8,5 +8,8 @@ class HomeController extends GetxController
   RxList<StudentModel> StudentQuizList = <StudentModel>[].obs;
   RxList<StudentModel> StudentHWList = <StudentModel>[].obs;
   RxInt tabIndex = 0.obs;
+  RxInt tab1 = 0.obs;
+  RxInt tab2 = 0.obs;
+  RxInt tab3 = 0.obs;
   Rx<StudentModel> studentInfo = StudentModel().obs;
 }
